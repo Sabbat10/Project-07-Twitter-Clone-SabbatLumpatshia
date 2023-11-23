@@ -4,6 +4,7 @@ import ProfilPhoto from '../images/profile-photo.png';
 import Poll from '../images/Poll.svg';
 import Gif from '../images/Gif.svg';
 import Media from '../images/Media.svg';
+import Emoji from '../images/Emoji.svg';
 import Schedule from '../images/Schedule.svg';
 
 // components Timeline
@@ -21,6 +22,7 @@ function Timeline() {
             <img src={Media} alt="" />
             <img src={Gif} alt="" />
             <img  src={Poll} alt="" />
+            <img  src={Emoji} alt="" />
             <img  src={Schedule} alt="" />
           </div>
           {/* button tweet */}
