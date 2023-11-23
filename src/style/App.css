@@ -86,13 +86,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    /*padding: 0.8rem 0;*/
+    padding: 0.8rem 0;
     gap: 1rem;
 }
-.tweet-editor-actions button {
+/* .tweet-editor-actions button {
     background-color: transparent;
     border: none;
-}
+} */
 .button {
     text-transform: capitalize;
     padding: .7rem 1.5rem;
