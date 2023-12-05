@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+import Header from '../components/header'
 import Timeline from '../components/timeline';
 // import Tweet from '../components/tweet';
 
