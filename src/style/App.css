@@ -193,3 +193,37 @@ body{
     justify-content: center;
     gap: 20px;
 }
+/* My commenets */
+.sideBardMenu {
+    margin-top: 10px;
+}
+.sidebarDisplay{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+span {
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+.buttonSidebare {
+    text-transform: capitalize;
+    padding: .7rem 4rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #1D9BF0;
+    color: white;
+    font-size: 1rem;
+}
+li {
+    padding-top: 15px;
+    list-style: none;
+}
+.profilClient{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.more2 {
+    margin: 0px 15px 0px 0px;
+}
