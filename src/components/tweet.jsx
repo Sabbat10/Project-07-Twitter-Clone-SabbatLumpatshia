@@ -4,6 +4,8 @@ import tweetProfile from '../images/tweet-profile-photo.png';
 import roundTwitter from '../images/round-twitter-logo.svg';
 import newYorkTime from '../images/newYorkTime.svg'
 
+//Les images svg pour les tweet-actions
+
 import reply from '../images/Reply.svg'
 import retweet from '../images/Retweet.svg'
 import love from '../images/React.svg'

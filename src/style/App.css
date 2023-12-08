@@ -195,7 +195,15 @@ body{
 }
 /* My commenets */
 .sideBardMenu {
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    /* padding-left: 10px; */
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin-left: 5px;
 }
 .sidebarDisplay{
     display: flex;
