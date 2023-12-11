@@ -14,6 +14,7 @@ function Home() {
       <Timeline/ >
       <Tweet />
     </div>
+   <Trends/>
 
     </>
   );

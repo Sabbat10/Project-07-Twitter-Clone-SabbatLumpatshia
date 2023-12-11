@@ -174,7 +174,7 @@ body{
 
 .tweet-actions {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     gap: 5rem;
     color: grey;
@@ -193,17 +193,21 @@ body{
     justify-content: center;
     gap: 20px;
 }
+.timeline {
+    width: 400px;
+}
 /* My commenets */
+/* sidebar */
 .sideBardMenu {
-    /* margin-top: 10px; */
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    padding-left: auto;
+    padding-right: auto;
     height: 100vh;
-    position: fixed;
-    /* padding-left: 10px; */
+    width: 40vh;
+    position: sticky;
     top: 0;
-    left: 0;
-    z-index: 100;
-    margin-left: 5px;
 }
 .sidebarDisplay{
     display: flex;
@@ -222,16 +226,112 @@ span {
     background-color: #1D9BF0;
     color: white;
     font-size: 1rem;
+    margin-right: 50px;
 }
 li {
     padding-top: 15px;
+    margin-left: 10px;
     list-style: none;
+    cursor: pointer;
 }
+/* li:hover{
+    background-color: #181818;
+    border-radius: px;
+    transition: #181818 100ms ease-out;
+    width: 60%;
+} */
 .profilClient{
-    margin-top: 35px;
+    margin-top: 50px;
+    margin-left: 5px;
     display: flex;
     justify-content: space-between;
 }
 .more2 {
     margin: 0px 15px 0px 0px;
+}
+
+/* Trends */
+.trends{
+    /* display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    height: 100vh;
+    width: 40vh; */
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    height: 100vh;
+    width: 40vh;
+    margin-left: 10px;
+    margin-right: 10px  ;
+    
+}
+
+.trends-input {
+    display: flex;
+    align-items: center;
+    background-color: #2F3336;
+    border-radius: 20px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.trends-input > input{
+    border: none;
+    outline: none;
+    background-color: #2F3336;
+    padding-left: 25px;
+    color: #fff;
+    position: sticky;
+}
+.trends-input > img{
+    width: 8%;
+}
+.trends-container{
+    margin  : 5px;
+    padding: 10px;
+    background-color: #2F3336;
+    border-radius: 15px;
+    /* height: 400px; */
+    width: 300px;
+}
+.trends-container-title{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.trends-container-title img {
+    width: 20px;
+}
+.trends b a {
+    text-decoration: unset;
+    color: #1D9BF0  ;
+}
+
+.trinding {
+    color :#9ea3a8;
+}
+.follow {
+    display: flex;
+    justify-content: space-between;
+}
+.follow-images {
+    padding: 5px 5px 0px 0px;
+    display: flex;
+}
+.button-trends {
+    text-transform: capitalize;
+    padding: .4rem 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(37, 34, 34);
+    font-size: 1rem;
+    margin-right: 50px;
 }

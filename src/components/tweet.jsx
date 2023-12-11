@@ -30,7 +30,7 @@ function Tweet (props) {
                             <div className="tweet-action"><img  src={reply} alt="" />235k</div>
                             <div className="tweet-action"><img  src={retweet} alt="" />235k</div>
                             <div className="tweet-action"><img  src={love} alt="" />235k</div>
-                            <div className="tweet-action"><img  src={tweetReplie} alt="" />235k</div>
+                            <div className="tweet-action"><img  src={tweetReplie} alt="" /></div>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ function Tweet (props) {
                             <div className="tweet-action"><img  src={reply} alt="" />235k</div>
                             <div className="tweet-action"><img  src={retweet} alt="" />235k</div>
                             <div className="tweet-action"><img  src={love} alt="" />235k</div>
-                            <div className="tweet-action"><img  src={tweetReplie} alt="" />235k</div>
+                            <div className="tweet-action"><img  src={tweetReplie} alt="" /></div>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ function Tweet (props) {
                             <div className="tweet-action"><img  src={reply} alt="" />235k</div>
                             <div className="tweet-action"><img  src={retweet} alt="" />235k</div>
                             <div className="tweet-action"><img  src={love} alt="" />235k</div>
-                            <div className="tweet-action"><img  src={tweetReplie} alt="" />235k</div>
+                            <div className="tweet-action"><img  src={tweetReplie} alt="" /></div>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ function Tweet (props) {
                             <div className="tweet-action"><img  src={reply} alt="" />235k</div>
                             <div className="tweet-action"><img  src={retweet} alt="" />235k</div>
                             <div className="tweet-action"><img  src={love} alt="" />235k</div>
-                            <div className="tweet-action"><img  src={tweetReplie} alt="" />235k</div>
+                            <div className="tweet-action"><img  src={tweetReplie} alt="" /></div>
                         </div>
                     </div>
                 </div>
