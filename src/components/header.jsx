@@ -1,13 +1,7 @@
-import React from "react";
-import TimelineProp from '../images/Timeline-Prop.svg';
-
-function Header() {
-    return (
-        <div className="header">
-            <div>Home</div>
-            <div><img src={TimelineProp} alt="" /></div>
-        </div>
-    );
+export default function Header({children}){
+    return(
+        <header className='header'>
+             {children}
+        </header>
+    )
 }
-
-export default Header;  
